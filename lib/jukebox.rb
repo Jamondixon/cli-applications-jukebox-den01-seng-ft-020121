@@ -55,6 +55,6 @@ def run(songs)
     user_input = gets.chomp
   end
   if user_input == "exit" then
-        puts "Goodbye!"
+        exit_jukebox
   end
 end

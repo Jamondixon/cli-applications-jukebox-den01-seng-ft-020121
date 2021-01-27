@@ -54,6 +54,6 @@ def run(songs)
     puts "Please enter a command:"
     user_input = gets.chomp
   end
-    "exit"
+    exit_jukebox
   end
 end

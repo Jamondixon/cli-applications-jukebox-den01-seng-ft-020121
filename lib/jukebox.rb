@@ -56,4 +56,5 @@ def run(songs)
   end
   if input == "exit" then
         puts "Goodbye!"
+  end
 end

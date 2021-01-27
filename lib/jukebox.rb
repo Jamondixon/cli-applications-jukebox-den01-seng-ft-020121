@@ -43,7 +43,7 @@ def run(songs)
   help
   puts "Please enter a command:"
   user_input = gets.chomp
-  until user_input == "exit"
+  until user_input == "exit".to_i
     if user_input == "list"
       list(songs)
     elsif user_input == "play"

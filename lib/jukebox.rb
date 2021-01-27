@@ -55,6 +55,6 @@ def run(songs)
     user_input = gets.chomp
   end
     if user_input == "exit"
-      "exit".to_s
+      "exit".to_i
     end
 end

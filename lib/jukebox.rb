@@ -55,5 +55,5 @@ def run(songs)
     user_input = gets.chomp
   end
     exit_jukebox
-  end
+
 end

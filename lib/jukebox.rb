@@ -54,7 +54,7 @@ def run(songs)
     puts "Please enter a command:"
     user_input = gets.chomp
   end
-  if input == "exit" then
+  if user_input == "exit" then
         puts "Goodbye!"
   end
 end
